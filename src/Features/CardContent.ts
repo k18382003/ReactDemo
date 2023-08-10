@@ -6,10 +6,10 @@ export const CardContent = [
         linkUrl: 'https://k18382003.github.io/BirthdayList/'
     },
     {
-        header: '',
-        description: '',
-        imgUrl: '',
-        linkUrl: 'test2'
+        header: 'Tour Cards',
+        description: 'UseEffect / Fetching data',
+        imgUrl: require('../Images/TourCards.png'),
+        linkUrl: 'https://k18382003.github.io/tourcomponent/'
     },
     {
         header: '',
