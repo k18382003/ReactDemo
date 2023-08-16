@@ -6,18 +6,20 @@ import {CardContent} from '../Features/CardContent'
 export default function DisplayPage() {
     return (
         <>       
-            <Card.Group itemsPerRow={3}>
+            <Card.Group itemsPerRow={3} stackable>
                 {CardContent.map((card, i) => (
-                    <Card key={i}>
-                        <Image src={card.imgUrl || require('../Images/logo192.png')} wrapped ui={false}/>
+                    <Card key={i} color="teal" >
+                        <Card.Content className="img-block">
+                            <Image src={card.imgUrl || require('../Images/logo192.png')} wrapped ui={false}/>
+                        </Card.Content>
                         <Card.Content>
-                            <Card.Header>{card.header}</Card.Header>
+                            <Card.Header>{card.header || 'Coming soon'}</Card.Header>
                             <Card.Description>
                                 {card.description}
                             </Card.Description>
                         </Card.Content>
                         <Card.Content extra>
-                            <Button as={Link} to={card.linkUrl} fluid>Demo</Button>
+                            <Button as={Link} to={card.linkUrl} fluid color="teal">Demo</Button>
                         </Card.Content>              
                     </Card>
                 ))}

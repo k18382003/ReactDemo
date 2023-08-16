@@ -1,7 +1,7 @@
 import NavBar from '../Layout/NavBar'
 import { Container } from 'semantic-ui-react';
 import { Outlet } from 'react-router-dom';
-import DisplayPage from '../Features/DisplayPage';
+import '../index.css'
 
 
 function App() {
