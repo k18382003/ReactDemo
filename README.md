@@ -2,6 +2,6 @@
 
 ### Current components:
 
--Birthday List: UseState hook & Nested components
--Tour Cards: UseEffect & Fetching data
--Lorem Ipsum Generator: Form & PreventDefault
+- Birthday List: UseState hook & Nested components
+- Tour Cards: UseEffect & Fetching data
+- Lorem Ipsum Generator: Form & PreventDefault
